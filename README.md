@@ -1,4 +1,4 @@
-# Lab 2: Oh, the Places You've Been!
+# Lab 2: The Places I've Been!
 
 **Course:** CS 465 – Fall 2025  
 **Author:** Rikuto Ota  

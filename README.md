@@ -1,16 +1,25 @@
-# React + Vite
+# Lab 2: Oh, the Places You've Been!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Course:** CS 465 – Fall 2025  
+**Author:** Rikuto Ota  
 
-Currently, two official plugins are available:
+This project is a simple interactive web application that lets users mark and describe meaningful locations on a world map.  
+It’s built with **React**, **Vite**, and **Leaflet**, using **OpenStreetMap** as the base map.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The main goal is to give users a fun and visual way to record places they’ve lived, visited, or want to go someday — all within a browser-based interactive map.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Main Features
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Interactive Map:** Displays a responsive world map using **Leaflet** and **OpenStreetMap**.  
+- **Add Locations:** Click anywhere on the map to drop a marker and describe that location.  
+- **Custom Notes:** Add details like when you lived there, memories, or favorite restaurants.  
+- **Location List:** View, edit, or delete places you’ve added in a side list.  
+- **Data Saving:** Your places are stored in **localStorage**, so they stay even after refreshing the page.  
+- **Control Buttons:**
+  - Done:** Stop adding new places and view your map.  
+  - Reset:** Clear everything and start fresh.  
+  - Export JSON:** Save your list of places as a JSON file.  
+  - Import JSON:** Load a saved JSON file to restore your map.  
+- **Auto Location Details:** Uses the **Nominatim API** to automatically find the city and country of each location.

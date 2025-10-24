@@ -171,7 +171,7 @@ export default function App() {
   return (
     <div className="min-h-screen flex flex-col">
       <header className="px-4 py-3 border-b flex items-center justify-between">
-        <h1 className="text-xl font-bold">Lab 2: Oh, the places you've been!</h1>
+        <h1 className="text-xl font-bold">Lab 2: The places I've been!</h1>
         <div className="flex gap-2 items-center">
           {isCollecting ? (
             <button className="px-3 py-1 rounded bg-black text-white" onClick={handleDone}>
